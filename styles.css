@@ -1,0 +1,98 @@
+html {
+    background-color: #f2e9de;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.contact{
+height: 100px;
+width: 100px;
+border:solid black; 
+background-color:#9893a5;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    right: 50%;
+
+}
+
+@media screen (max-width: 700px) {
+    .flex-container {
+      flex-direction: column;
+    
+    }
+
+      .taskbar {
+        position:absolute; 
+        top:0px;
+        background-color:#9ccfd8;
+        text-decoration: none;
+        flex-direction: row;
+        display:flex;
+
+
+    }
+
+}
+.taskbar {
+    position:absolute; 
+    top:0px;
+    left:0px;
+    width: 250px;
+    height:700px;
+    background-color:#9ccfd8;
+    text-decoration: none;
+    flex-direction: column;
+    display:flex;
+  }
+img{
+    border:2px solid black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 550px;
+    top: 30px; 
+}
+
+.formfill{
+    position: absolute;
+    left: 565px;
+    top: 310px;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 600px;
+    top: 550px;
+    
+}
+
+#savecontact{
+    background-color: solid blue;
+    font-style: white;
+}
+
+#delete{
+    background-color: solid red;
+    font-style: white;
+}
+
+#contactinfo{
+    position:absolute;
+    left: 600px;
+    top: 250px;
+
+}
+
+#image2{
+
+}
